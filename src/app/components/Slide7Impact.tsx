@@ -76,7 +76,7 @@ export function Slide7Impact() {
                 {s.positives.map((p, i) => (
                   <div key={i} className="flex items-start gap-1.5">
                     <span style={{ color: "#2A9D8F", fontSize: "0.65rem", flexShrink: 0, marginTop: 2 }}>✓</span>
-                    <span style={{ color: "#334155", fontSize: "0.72rem", lineHeight: 1.5, fontWeight: 400 }}>{p}</span>
+                    <span style={{ color: "#1E293B", fontSize: "0.75rem", lineHeight: 1.5, fontWeight: 600 }}>{p}</span>
                   </div>
                 ))}
               </div>
@@ -90,7 +90,7 @@ export function Slide7Impact() {
                 {s.negatives.map((n, i) => (
                   <div key={i} className="flex items-start gap-1.5">
                     <span style={{ color: "#E63946", fontSize: "0.65rem", flexShrink: 0, marginTop: 2 }}>✗</span>
-                    <span style={{ color: "#334155", fontSize: "0.72rem", lineHeight: 1.5, fontWeight: 400 }}>{n}</span>
+                    <span style={{ color: "#1E293B", fontSize: "0.75rem", lineHeight: 1.5, fontWeight: 600 }}>{n}</span>
                   </div>
                 ))}
               </div>
